@@ -57,12 +57,14 @@ html {
 body {
     font-size: 1.6rem;
     line-height: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
     background-color: whitesmoke;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
     letter-spacing: 3px;
 }
 
@@ -72,12 +74,12 @@ section {
 
 a{
     text-decoration: none;
+    color: black;
 }
 
-* { 
-    outline: 1px solid red;
-    outline-offset: -1px;
-  }
+.nav-bar a:hover {
+    background-color: crimson;
+}
 
 .div-container{
     background-color: darkgrey;
@@ -90,7 +92,7 @@ h2 {
 }
 
 header { 
-    padding: 3rem;
+    padding: 1rem;
     margin: 0 auto;
 }
 
@@ -101,45 +103,28 @@ header {
     justify-content: space-between; 
     align-items: center;
     margin: 0 auto;
+    padding: 1rem;
 }
 
 .name {   
-    margin-top: 2rem;
-    padding: 4rem;
+    margin: 2rem 0;
+    padding: 2rem;
     display: flex;
     justify-content: center;
 }
-
 
 .nav-bar {
     display: flex;
     margin: 1rem;
     justify-content: flex-end;
-
 }
 
-.home {
-    margin: 0rem;
-    padding: 2rem;
-}
-
-.about{
+.home, .about, .contact, .projects{
+    background-color: grey;
     margin: 2rem auto;
     padding: 2rem;
+    border-radius: 15%;
 }
-
-.contact {
-    margin: 2rem auto;
-    padding: 2rem;
-}
-
-.projects {
-    margin: 2rem auto;
-    padding: 2rem;
-}
-
-
-
 
 /* Projects Button */
 
@@ -148,13 +133,14 @@ h1 {
 }
 
 .center-project {
-    width: 60%;
+    width: 35%;
     display: flex;
     justify-content: center;
     margin: 0 auto;
     align-items: center;
     padding: 12rem 10rem;
     background-color: crimson;
+    border-radius: 15%;
 }
 
 #name {
@@ -169,15 +155,25 @@ h1 {
     justify-content: center;
     margin-top: 2rem;
     padding: 1rem 2rem;
+    border-radius: 5%;
+}
+
+#name p {
+    margin-top: 2rem;
+    text-align: center;
 }
 
 
 /* Main Content */
+
+
 .main-content {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    width: 55%;
+    padding: 1rem;
 }
 
 .main-content img {
@@ -194,16 +190,18 @@ h1 {
 
 footer {
     background-color: grey;
-    padding: 4rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.button2 a {
-    padding: 1rem 2rem;
 
+
+.button2 button {
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
 }
 
 i {
