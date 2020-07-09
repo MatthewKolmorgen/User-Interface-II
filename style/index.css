@@ -121,7 +121,7 @@ header {
 
 .home, .about, .contact, .projects{
     background-color: grey;
-    margin: 2rem auto;
+    margin: 0rem auto;
     padding: 2rem;
     border-radius: 15%;
 }
