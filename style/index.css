@@ -217,7 +217,7 @@ i {
     /* Main Container */
 
     .div-container {
-        width: 800px;
+        width: 100%;
     }
 
     /* Name */
@@ -296,7 +296,7 @@ i {
 
     /* Main Container */
     .div-container {
-        width: 500px;
+        width: 100%;
     }
 
     /* Mid Content */
