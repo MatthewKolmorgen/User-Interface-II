@@ -260,6 +260,50 @@ i {
 
     .center-project {
         width: 50%;
+        height: 12rem;
+        padding: 0 auto;
+        margin-bottom: 4rem;
+    }
+
+        #name button { 
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        padding: 1rem 5rem;
+        border-radius: 5%;
+        font-size: 1.6rem;
+    }
+
+    /* Images */
+    .main-content {
+        width: 90%;
+        padding: 0 auto;
+    }
+
+    /* Footer */
+    .button2 button{
+        padding: 1rem 5rem;
+    }
+
+    i {
+        padding: 1.2rem;
+    }
+
+
+}
+
+@media(max-width: 500px) {
+
+    /* Main Container */
+    .div-container {
+        width: 500px;
+    }
+
+    /* Mid Content */
+
+    .center-project {
+        width: 42%;
+        height: 3rem;
         padding: 0 auto;
         margin-bottom: 4rem;
     }
@@ -270,9 +314,8 @@ i {
         padding: 0 auto;
     }
 
-
-}
-
-@media(max-width: 500px) {
+    .main-content img {
+        width: 170px
+    }
 
 }
